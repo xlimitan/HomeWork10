@@ -6,7 +6,11 @@ public class Main {
 
     public static void task1 () {
         System.out.println("Задача 1");
-        // Пишем код для задачи 1
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + " " + firstName + " " + middleName;
+        System.out.println("ФИО сотрудика - "+fullName);
     }
 
     public static void task2 () {
