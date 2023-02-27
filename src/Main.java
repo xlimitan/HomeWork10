@@ -15,6 +15,10 @@ public class Main {
 
     public static void task2 () {
         System.out.println("Задача 2");
-        // Пишем код для задачи 2
+        String firstName = "Ivan";
+        String middleName = "Ivanovich";
+        String lastName = "Ivanov";
+        String fullName = lastName + " " + firstName + " " + middleName;
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName.toUpperCase());
     }
 }
